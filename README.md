@@ -3,12 +3,16 @@ STATA code to support analysis and synthesis of data from the ISC3 HIT scoping r
 
 ***************************************
 
-author: Jinying Chen, iDAPT Cancer Control Center & UMass Chan Medical School
-date: 2022-2-27
-ver: 1.0 
- 
-This code was written to support data analysis for the HIT scoping review.
-The code is for research use only, and is provided as it is.
+copyright 2022 Jinying Chen, iDAPT Cancer Control Center & UMass Chan Medical School
+
+Licensed under the MIT License (the "License");
+you may not use this file except in compliance with the License.
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
  
 ***************************************
 
