@@ -1,11 +1,13 @@
 ***************************************
+* MIT License
+* Copyright (c) 2022 Jinying Chen
 * 
 * author: Jinying Chen, iDAPT Cancer Control Center & UMass Chan Medical School
 * date: 2022-2-27
 * ver: 1.0 
 * 
-* This code was written to support data analysis for the HIT scoping review.
-* The code is for research use only, and is provided as it is.
+* The code was written to support data analysis for the HIT scoping review.
+* The code is distributed on an "AS IS" basis.
 * 
 ***************************************
 * To run the code, please put the accompanied ado file  
@@ -13,7 +15,7 @@
 * in your personal ado directory like C:\ado\personal
 * 
 * Setting input data directory
-*   replace [[input dir]] in the definition of the global macro datadir (line 41)
+*   replace [[input dir]] in the definition of the global macro datadir (line 43)
 *   by the directory that holds the input files (in xlsx format)
 * 
 * Updating input data files
