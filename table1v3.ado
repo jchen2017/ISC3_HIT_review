@@ -49,7 +49,7 @@ program define table1v3
 		[plusminus]			/// report contn vars as mean ± sd instead of mean (sd)
 		[percent]			/// report categorical vars just as % (no N)
 		[freqonly]			/// report categorical vars just as N
-		[isc]			    /// report categorical vars as N (%) but % is 
+		[isc]			    /// report categorical vars as N (%) 
 		[MISsing]			/// don't exclude missing values
 		[CMISsing]			/// report (n=) for continous variables
 		[pdp(integer 3)]	/// max number of decimal places in p-value
@@ -112,10 +112,12 @@ program define table1v3
 	restore
 
 	//only count each ref_ID once, modified by JChen, 2022-02-02
-	//dis _N
+	dis "total rows: ", _N
 	//scalar alltot = _N
 	qui unique ref_ID
 	scalar alltot = r(unique)
+	dis "unique studies: ", alltot
+	
 	//
 	* step through the variables
 	gettoken arg rest : vars, parse("\")
@@ -308,7 +310,7 @@ program define table1v3
 				qui gen perc2=string(100*_freq/alltot, "`varformat'")
 				
 				qui replace perc2="<1" if _freq!=0 & real(perc2)==0
-				//dis perc2, "OK2", alltot
+				//dis "debug2 -- percent: ", perc2, "denominator: ", alltot
 				
 				
 				if "`percent'"=="percent" qui gen n_perc=perc + "%"
