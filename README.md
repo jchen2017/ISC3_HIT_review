@@ -1,5 +1,7 @@
 # ISC3_HIT_review
-STATA code to support analysis and synthesis of data from the ISC3 HIT scoping review.
+STATA code to support analysis and synthesis of data for the ISC3 HIT scoping review.
+
+Owens C, Chen J, Xu R, Angier H, Huebschmann GA, Fukunaga MI, Chaiyachati KH, Rendle K, Robien K, DiMartino L, Amante DJ, Faro J, Kepper M, Ramsey A, Bressman E, Gold R. on behalf of National Cancer Institute’s Consortium for Cancer Implementation Science (CCIS). Implementation of Health Information Technology (HIT) Approaches for Secondary Cancer Prevention in Primary Care: A Scoping Review. JMIR Cancer. 2024 Apr 30;10:e49002. doi: 10.2196/49002. PMID: 38687595; PMCID: PMC11094604
 
 ***************************************
 
